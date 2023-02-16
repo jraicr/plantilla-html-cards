@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(241, 241, 241);
+}
+
+/* HEADER */
+header {
+    background-color: rgb(0, 0, 0);
+    color:gold;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 2em 2em 2em;
+    padding: 1em;
+}
+
+.header-content .logo {
+    color: white;
+}
+
+.header-content .menu a {
+    color: gold;
+    font-size: 1.25em;
+    text-decoration: none;
+    font-weight: 600;
+
+    margin:0.5em;
+}
+
+.header-content .menu a:hover {
+    color: white;
+    text-shadow:gold 10px;
+
+    transition: all 250ms ease-out;
+}
+
+/* CONTENIDO */
+main {
+    margin-top: 2em;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .main-content { } */
+
+.cards-container {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    padding: 1em;
+    margin: 1em;
+    max-width:250px;
+}
+
+.card-header {
+    font-size: 1.2em;
+}
+
+/* .card-body { } */
+
+
+/* MENSAJES DE SALIDAS */
+.output {
+    margin: 2em;
+    padding: 1em;
+    border: 1px solid black;
+}
